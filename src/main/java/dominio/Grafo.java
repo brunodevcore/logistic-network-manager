@@ -132,8 +132,7 @@ public class Grafo {
         return pos;
     }
 
-    private void dijkstra(String codigoOrigen, boolean usarDistancia,
-                          boolean[] visitados, int[] costos, CentroLogistico[] vengo) {
+    private void dijkstra(String codigoOrigen, boolean usarDistancia,boolean[] visitados, int[] costos, CentroLogistico[] vengo) {
         int posOrigen = obtenerPosicionVertice(codigoOrigen);
 
         for (int n = 0; n < cantMaxVertices; n++) {
@@ -181,13 +180,13 @@ public class Grafo {
         dijkstra(codigoOrigen, usarDistancia, visitados, costos, vengo);
         int posDestino = obtenerPosicionVertice(codigoDestino);
         if (!visitados[posDestino]) return null;
-        String camino = "";
+
+        String camino = vertices[posDestino].toString();
         int auxPos = posDestino;
         while (vengo[auxPos] != null) {
-            camino = vertices[auxPos].toString() + "|" + camino;
             auxPos = obtenerPosicionVertice(vengo[auxPos].getCodigo());
+            camino = vertices[auxPos].toString() + "|" + camino;
         }
-        camino = vertices[auxPos].toString() + camino;
         return camino;
     }
 
