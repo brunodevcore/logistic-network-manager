@@ -2,7 +2,7 @@
 
 Sistema Java para la gestión integral de una red logística: administración de mercaderías con búsquedas eficientes y modelado de una red de centros logísticos con conexiones dirigidas, incluyendo búsqueda de caminos de costo mínimo.
 
-Proyecto académico desarrollado en la materia **Algoritmos y Estructuras de Datos 2** de la carrera Analista en Tecnologías de la Información (Universidad ORT Uruguay). Calificación obtenida: **30/30 puntos** — obligatorio exonerado.
+Proyecto personal de backend desarrollado para simular entornos logísticos reales, aplicando patrones de diseño avanzados, optimización de recursos y análisis estricto de complejidad temporal y espacial.
 
 ---
 
@@ -113,12 +113,6 @@ Las pruebas están organizadas por operación y numeradas para reflejar el orden
    - Seleccionar `Run 'Tests in sistema'`
 
 Todas las pruebas deberían pasar.
-
----
-
-## Documentación técnica adicional
-
-Este proyecto incluye documentación técnica formal con análisis de complejidad detallado por cada operación, justificación de las estructuras de datos elegidas, y explicación de las decisiones de diseño. Disponible bajo pedido.
 
 ---
 
