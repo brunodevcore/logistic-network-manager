@@ -99,7 +99,7 @@ Las pruebas están organizadas por operación y numeradas para reflejar el orden
 
 ## Cómo ejecutarlo
 
-**Requisitos:** Java 21 e IntelliJ IDEA (o cualquier IDE con soporte de JUnit 5).
+**Requisitos:** Java 21 y cualquier IDE con soporte de JUnit 5 (IntelliJ IDEA, Eclipse, VS Code).
 
 1. **Clonar el repositorio**
    ```bash
