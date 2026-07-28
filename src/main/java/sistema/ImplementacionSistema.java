@@ -1,4 +1,3 @@
-// Bruno Rivero - 263355
 package sistema;
 
 import dominio.*;
